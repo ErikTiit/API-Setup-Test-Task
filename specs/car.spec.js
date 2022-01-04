@@ -54,7 +54,7 @@ describe('Car endpoint', () => {
     const car = await response.json();
     expect(car.make).toBe('Honda');
     expect(car.model).toBe('Odyssey');
-    expect(car.year).toBe('2003');
+    expect(car.year).toBe(2003);
     expect(car.registrationCode).toBe('222BBB');
   });
 
