@@ -10,7 +10,7 @@ describe('Car endpoint', () => {
       },
       method: 'POST',
       body: JSON.stringify({
-        vinNumber: '5FNRL18613B046732',
+        vin: '5FNRL18613B046732',
         make: 'Honda',
         model: 'Odyssey',
         year: 2003,
@@ -20,6 +20,40 @@ describe('Car endpoint', () => {
 
     expect(response.ok).toBe(true);
     expect(response.status).toBe(200);
+  });
+
+  it('Should be able to add multiple cars', async () => {
+    const responses = await Promise.all([
+      fetch(`${API_URL}/car`, {
+        headers: {
+          'content-type': 'application/json',
+        },
+        method: 'POST',
+        body: JSON.stringify({
+          vin: 'KLATA52671B611178',
+          make: 'Daewoo',
+          model: 'Lanos',
+          year: 2001,
+          registrationCode: '333CCC',
+        }),
+      }),
+      fetch(`${API_URL}/car`, {
+        headers: {
+          'content-type': 'application/json',
+        },
+        method: 'POST',
+        body: JSON.stringify({
+          vin: '2FMDK4KC7BBA48439',
+          make: 'Ford',
+          model: 'Edge',
+          year: 2011,
+          registrationCode: '444DDD',
+        }),
+      }),
+    ]);
+
+    expect(responses.map((response) => response.ok)).toEqual([true, true]);
+    expect(responses.map((response) => response.status)).toEqual([200, 200]);
   });
 
   it('Should be able to update car parameters', async () => {
@@ -43,7 +77,7 @@ describe('Car endpoint', () => {
     expect(response.ok).toBe(true);
     expect(response.status).toBe(200);
     const cars = await response.json();
-    expect(cars.length).toBe(1);
+    expect(cars.length).toBe(3);
   });
 
   it('Should be able to fetch a spesific', async () => {
@@ -67,6 +101,6 @@ describe('Car endpoint', () => {
 
     const getResponse = await fetch(`${API_URL}/car`);
     const cars = await getResponse.json();
-    expect(cars.length).toBe(0);
+    expect(cars.length).toBe(2);
   });
 });
