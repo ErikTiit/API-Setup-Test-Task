@@ -35,6 +35,4 @@ You are free to use whatever language/framework/technologies you want.
 Along with code submit instructions how to start the application.
 
 No database setup is necessary, it is fine to hold data only as long as the application is
-running.
-
-Any other endpoints, which are not laid out in the spec should also be tested.
+running (in RAM).
