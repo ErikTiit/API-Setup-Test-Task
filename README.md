@@ -1,6 +1,6 @@
 # API Task
 
-Your task is to
+Your task is to:
 
 1. write a small (REST) API, which follows the specs outlaid in tests
 of this repository.
@@ -29,6 +29,8 @@ yarn test
 
 
 ## Other notes
+
+You are free to use whatever language/framework/technologies you want.
 
 Along with code submit instructions how to start the application.
 
