@@ -27,7 +27,6 @@ setx API_URL "YOUR_APPLICATION_URL_GOES_HERE"
 yarn test
 ```
 
-
 ## Other notes
 
 You are free to use whatever language/framework/technologies you want.
@@ -36,3 +35,5 @@ Along with code submit instructions how to start the application.
 
 No database setup is necessary, it is fine to hold data only as long as the application is
 running (in RAM).
+
+Example solution can be found at: [API Setup test task example](https://github.com/Foundation-CR14/API-Setup-test-task-example)
