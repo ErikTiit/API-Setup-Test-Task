@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8ohnp70huf6PAjRWgqnX/SDhWnFjfzdmx+c4/5O0TyQ=",
+  "Source": "API-Setup-Test-Task",
+  "BasePath": "_content/API-Setup-Test-Task",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

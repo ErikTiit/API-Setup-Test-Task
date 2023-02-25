@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "U4TO4+GsuwhWFdr7S1OwL0MfG0VC0ZdBP4wvbos55Ng=",
+  "Source": "API-Setup-Test-Task",
+  "BasePath": "_content/API-Setup-Test-Task",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API-Setup-Test-Task/wwwroot",
+      "Source": "API-Setup-Test-Task",
+      "ContentRoot": "/Users/erik/Desktop/API-Setup-Test-Task/API-Setup-Test-Task/wwwroot/",
+      "BasePath": "_content/API-Setup-Test-Task",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/erik/Desktop/API-Setup-Test-Task/API-Setup-Test-Task/wwwroot/css/site.css",
+      "SourceId": "API-Setup-Test-Task",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/erik/Desktop/API-Setup-Test-Task/API-Setup-Test-Task/wwwroot/",
+      "BasePath": "_content/API-Setup-Test-Task",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/erik/Desktop/API-Setup-Test-Task/API-Setup-Test-Task/wwwroot/index.html",
+      "SourceId": "API-Setup-Test-Task",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/erik/Desktop/API-Setup-Test-Task/API-Setup-Test-Task/wwwroot/",
+      "BasePath": "_content/API-Setup-Test-Task",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/erik/Desktop/API-Setup-Test-Task/API-Setup-Test-Task/wwwroot/js/site.js",
+      "SourceId": "API-Setup-Test-Task",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/erik/Desktop/API-Setup-Test-Task/API-Setup-Test-Task/wwwroot/",
+      "BasePath": "_content/API-Setup-Test-Task",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    }
+  ]
+}
